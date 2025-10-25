@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TristanGPT</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="script.js" defer></script>
+</head>
+<body>
+  <div id="auth-section">
+    <h2>GPTmachine</h2>
+    <button id="loginBtn">Sign in with Google</button>
+    <button id="logoutBtn" style="display:none;">Logout</button>
+  </div>
+
+  <div id="chat-section" style="display:none;">
+    <h2 id="userName"></h2>
+    <div id="chat-box"></div>
+    <div id="input-container">
+      <input type="file" id="imageInput" accept="image/*" />
+      <textarea id="userInput" placeholder="Type a message..."></textarea>
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+
+  <!-- Firebase SDKs -->
+  <script type="module">
+    // Firebase setup will go here later
+  </script>
+</body>
+</html>
